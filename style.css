@@ -1,0 +1,235 @@
+header{
+   width: 100%;
+}
+
+.dark {
+    background: gray;
+}
+
+.principal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    background:#6a79ca;
+    text-align: center;
+}
+
+.dark .principal ul{
+    background:#21263f;
+}
+
+
+.principal li{
+
+    text-decoration: none;
+    width: 100px;
+
+}
+
+.principal li a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.imagemindex{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.dark .imagemindex{
+    background: gray;
+}
+
+.imagemindex img{
+    margin: 10px auto 0 auto;
+    border-radius: 10px;
+}
+
+.conteudo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 171px;
+}
+
+.dark .conteudo{
+    background: gray ;
+}
+ 
+#convert:hover {
+    background-color: #3642af;
+}
+h1 {
+    font-family: sans-serif;
+    color: #042640;
+}
+::-webkit-input-placeholder {
+    color: #ccc;
+}
+:-moz-placeholder { 
+    color: #ccc;  
+}
+::-moz-placeholder { 
+    color: #ccc;  
+}
+:-ms-input-placeholder {  
+    color: #ccc;  
+}
+
+
+.botaomudartamanho{
+    width: 100%;
+    text-align: center;
+    margin:0 auto;
+}
+
+.dark .botaomudartamanho{
+    background: gray;
+}
+
+
+
+/* PAGINA CONVERSOR */
+.botaoselect{
+    border-radius: 30px;
+    font-size: 1.5em;
+    height: 40px;
+    margin: 15px auto;
+    line-height: 40px;
+    width: 130px;
+}
+
+.box2b{
+    background-color:#6a79ca;
+    border-radius: 30px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    width: 700px;
+    text-align: center;
+    margin: 90px auto 90px auto;
+}
+
+.caixa1{
+    display:flex;
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.botaocaixa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.itembotaocaixa{
+    margin: 0 10px 0 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.resultadocaixa{
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: #ccc;
+   
+    
+}
+
+
+footer {
+    background: #6a79ca;; 
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    color: white;
+    line-height: 40px;
+   
+}
+
+.dark footer{
+    background:#21263f ;
+}
+
+
+
+
+
+/* CALCULADORA: */
+.total{
+    width: 700px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin: 70px auto 237px auto;
+  }
+  
+  .linha1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .linha2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .linha3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .linha4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .sublinha1 {
+    margin: 0 10px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .sublinha2, .sublinha3{
+    margin: 0 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  
+  .sublinha4{
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+ 

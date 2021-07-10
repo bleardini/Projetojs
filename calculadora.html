@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="master.js"></script>
+    <title>Calculadora</title>
+   
+</head>
+<body>
+    <header>
+
+        <nav class="principal">
+            <ul>
+                <li>
+                    <a href="index.html">Home </a>
+                </li>
+
+                <li>
+                    <a href="calculadora.html">Calculadora</a>
+                </li>
+
+                <li>
+                    <a href="conversor.html">Conversor</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="total">
+        <div class="linha1">
+          <input type="number" class="sublinha1" placeholder="Digite um valor para A" style="text-align: center" id="valora"/>
+          <input type="number" class="sublinha1" placeholder="Digite um valor para B" style="text-align: center" id="valorb"/>
+          <button type="reset"class="sublinha1" onclick="limpar()">limpar</button>
+        </div>
+        <div class="linha2">
+          <button class="sublinha2" onclick="somar()">+</button>
+          <button class="sublinha2" onclick="subtrair()">-</button>
+          <button class="sublinha2" onclick="multiplicar()">x</button>
+          <button class="sublinha2" onclick="dividir()">/</button>
+        </div>
+        <div class="linha3">
+          <button class="sublinha3" onclick="porcentagem()">%</button>
+          <button class="sublinha3" onclick="alevado2()">A<sup>2</sup></button>
+          <button class="sublinha3" onclick="blevado2()">B<sup>2</sup></button>
+          <button class="sublinha3" onclick="aelevadob()">A<sup>b</sup></button>
+        </div>
+        <div class="linha4">
+          <p class="sublinha4" id ="resultado">Resutado</p>
+        </div>
+      </div>
+
+    <footer>
+        Site desenvolvido por Bruna Leardini <a href="https://www.linkedin.com/in/bruna-leardini-4a66881b4/">
+            &#128420;</a>
+    </footer>
+       
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+</body>
+</html>

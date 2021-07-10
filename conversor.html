@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="master.js"></script>
+    <title>Graus Fahrenheit</title>
+   
+</head>
+<body>
+    <header>
+
+        <nav class="principal">
+            <ul>
+                <li>
+                    <a href="index.html">Home </a>
+                </li>
+
+                <li>
+                    <a href="calculadora.html">Calculadora</a>
+                </li>
+
+                <li>
+                    <a href="ConversorTemperatura/conversor.html">Conversor</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <div class="box2b">
+        <div class="caixa1">
+            <h1>Conversor de Temperatura:</h1>
+            <input type="text" id="valortemp" placeholder="Digite um valor em Celsius" />
+            <select class="botaoselect" id="temperatura">
+                <option value="k">Kelvin</option>
+                <option value="f">Fahrenheit</option>
+            </select>
+            <div class="botaocaixa">
+                <button class="itembotaocaixa" onclick="converter()" >Converter</button>
+                <button class="itembotaocaixa" onclick="clearTemp()"> Apagar</button>
+            </div>
+            <p class="resultadocaixa" id="resultcaixa">Resultado</p>
+        </div>
+
+
+
+        <div class="caixa1">
+            <h1>Conversor de Moedas:</h1>
+            <input type="text" id="valorreal"  placeholder="Digite um valor em Real" />
+            <select class="botaoselect" name="moeda" id="real">
+                <option value="d">Dolar</option>
+                <option value="e">Euro</option>
+            </select>
+            <div class="botaocaixa">
+                <button class="itembotaocaixa" onclick="converter1()">Converter</button>
+                <button class="itembotaocaixa" onclick="clear1()"> Apagar</button>
+            </div>
+            <p class="resultadocaixa" id="resultcaixa1">Resultado</p>
+        </div>
+    </div>
+    <footer>
+        Site desenvolvido por Bruna Leardini <a href="https://www.linkedin.com/in/bruna-leardini-4a66881b4/">
+            &#128420;</a>
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+</body>
+</html>
